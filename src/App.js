@@ -22,17 +22,17 @@ function App() {
         <div class="card-columns">
 
             <div className="card m-3 text-white bg-dark">
-              <div className="card-header text-center h4"><b>Эвакуатор</b></div>
+              <div className="card-header text-center h4  border-secondary"><b>Эвакуатор</b></div>
               <ul className="list-group list-group-flush">
                 <div>
 
-                  <li className="list-group-item bg-dark">
+                  <li className="list-group-item bg-dark border-secondary">
                     <div className="card-body p-1">
                       Полукоммерческий сайт-визитка, показывает расположение эвакуатора на карте.
                       Его владелец пользуется клиентом на этом же сайте, который отслеживает геолокацию и посылает ее в API веб-сервиса.
                     </div>
                   </li>
-                  <li className="list-group-item bg-dark">
+                  <li className="list-group-item bg-dark border-secondary">
                     <div className="card-body p-1">
                       <div className="text-center"><b>Технологии</b></div>
                       Бэкенд: Java + Spring (Boot, Web) <br/>
@@ -40,13 +40,13 @@ function App() {
                     </div>
                   </li>
                   
-                  <li className="list-group-item bg-dark">
+                  <li className="list-group-item bg-dark border-secondary">
                     <img class="card-img" src="https://i.imgur.com/tA8aiki.jpg" alt="Скриншот"></img>
                   </li>
 
                 </div>
               </ul>
-              <div className="card-footer text-center p-1"> 
+              <div className="card-footer text-center p-1 border-secondary"> 
                   <a href="https://nvinz.site/" role="button" className="btn btn-secondary mr-1 ml-1 btn-sm"> Перейти </a>
                   <a href="https://github.com/nVinz/tow-truck-spring" role="button" className="btn btn-secondary mr-1 ml-1 btn-sm"> Как работает? </a>
               </div>
@@ -54,18 +54,18 @@ function App() {
 
 
             <div className="card m-3 text-white bg-dark">
-              <div className="card-header text-center h4"><b>Рейтинг изоляции</b></div>
+              <div className="card-header text-center h4 border-secondary"><b>Рейтинг самоизоляции</b></div>
               <ul className="list-group list-group-flush">
                 <div>
 
-                  <li className="list-group-item bg-dark">
+                  <li className="list-group-item bg-dark border-secondary">
                     <div className="card-body p-1">
                       В разработке. <br/>
-                      Сервис для оценки уровня самоизоляции. Определяются IP геолокация зашедших пользователей, которые отправляются в API веб-сервиса, 
+                      Сервис для оценки уровня самоизоляции. Определяются IP-адрес и геолокация зашедших пользователей, которые отправляются в API веб-сервиса, 
                       который рассчитывает рейтинг каждого отдельного пользователя исходя из его перемещений, и общий рейтинг.
                     </div>
                   </li>
-                  <li className="list-group-item bg-dark">
+                  <li className="list-group-item bg-dark border-secondary">
                     <div className="card-body p-1">
                       <div className="text-center"><b>Технологии</b></div>
                       Бэкенд: Java + Spring (Boot, Web), Hibernate <br/>
@@ -73,7 +73,7 @@ function App() {
                     </div>
                   </li>
                   
-                  <li className="list-group-item bg-dark">
+                  <li className="list-group-item bg-dark border-secondary">
                     <img class="card-img" src="https://i.imgur.com/TPvwM7Y.jpg" alt="Скриншот"></img>
                   </li>
 
@@ -86,16 +86,16 @@ function App() {
 
 
             <div className="card m-3 bg-dark text-white">
-              <div className="card-header text-center h4"><b>Сервис для работы с тестовыми данными</b></div>
+              <div className="card-header text-center h4 border-secondary"><b>Сервис для работы с тестовыми данными</b></div>
               <ul className="list-group list-group-flush">
                 <div>
 
-                  <li className="list-group-item bg-dark text-secondary">
+                  <li className="list-group-item bg-dark text-secondary border-secondary">
                     <div className="card-body p-1">
                       В разработке
                     </div>
                   </li>
-                  <li className="list-group-item bg-dark text-secondary">
+                  <li className="list-group-item bg-dark text-secondary border-secondary">
                     <div className="card-body p-1">
                       <div className="text-center"><b>Технологии</b></div>
                       Бэкенд: Java + Spring (Boot, Web), Hibernate <br/>
