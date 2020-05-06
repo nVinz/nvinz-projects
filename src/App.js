@@ -9,7 +9,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="navbar-brand">Проекты <b>nVinz</b></div>
         <ul className="navbar-nav">
-          <li class="nav-item">
+          <li className="nav-item">
             <a href="https://github.com/nVinz" role="button" className="btn btn-secondary m-1 github"> GitHub </a>
             <a href="https://vk.com/shelepukhin" role="button" className="btn btn-secondary m-1 vk"> ВКонтакте </a>
             <a href="https://career.habr.com/nvinz" role="button" className="btn btn-secondary m-1 habr"> Хабр.Карьера </a>
@@ -19,7 +19,7 @@ function App() {
 
       
       <div className="container d-flex ">
-        <div class="card-columns">
+        <div className="card-columns">
 
             <div className="card m-3 text-white bg-dark">
               <div className="card-header text-center h4  border-secondary"><b>Эвакуатор</b></div>
@@ -41,12 +41,12 @@ function App() {
                   </li>
                   
                   <li className="list-group-item bg-dark border-secondary">
-                    <img class="card-img" src="https://i.imgur.com/tA8aiki.jpg" alt="Скриншот"></img>
+                    <img className="card-img" src="https://i.ibb.co/Npbg4G3/2rw9l-Ub-Xq-OY.jpg" alt="Скриншот"></img>
                   </li>
 
                 </div>
               </ul>
-              <div className="card-footer text-center p-1 border-secondary"> 
+              <div className="card-footer text-center p-1"> 
                   <a href="https://nvinz.site/" role="button" className="btn btn-secondary mr-1 ml-1 btn-sm"> Перейти </a>
                   <a href="https://github.com/nVinz/tow-truck-spring" role="button" className="btn btn-secondary mr-1 ml-1 btn-sm"> Как работает? </a>
               </div>
@@ -60,26 +60,26 @@ function App() {
 
                   <li className="list-group-item bg-dark border-secondary">
                     <div className="card-body p-1">
-                      В разработке. <br/>
-                      Сервис для оценки уровня самоизоляции. Определяются IP-адрес и геолокация зашедших пользователей, которые отправляются в API веб-сервиса, 
-                      который рассчитывает рейтинг каждого отдельного пользователя исходя из его перемещений, и общий рейтинг.
+                      Сервис для оценки уровня самоизоляции. Определяются IP-адрес, геолокация зашедших пользователей и отправляются в API веб-сервиса, 
+                      который рассчитывает рейтинг каждого отдельного пользователя исходя из его недавних перемещений, и общий рейтинг.
                     </div>
                   </li>
                   <li className="list-group-item bg-dark border-secondary">
                     <div className="card-body p-1">
                       <div className="text-center"><b>Технологии</b></div>
-                      Бэкенд: Java + Spring (Boot, Web), Hibernate <br/>
+                      Бэкенд: Java + Spring (Boot, Web) + Hibernate <br/>
                       Фронтенд: React.js (react-yandex-maps) + Bootstrap
                     </div>
                   </li>
                   
                   <li className="list-group-item bg-dark border-secondary">
-                    <img class="card-img" src="https://i.imgur.com/TPvwM7Y.jpg" alt="Скриншот"></img>
+                    <img className="card-img" src="https://i.ibb.co/61tYpPJ/GEfsui6-Zjj-Q2.png" alt="Скриншот"></img>
                   </li>
 
                 </div>
               </ul>
               <div className="card-footer text-center p-1"> 
+                  <a href="https://isolation-rating.netlify.app/" role="button" className="btn btn-secondary mr-1 ml-1 btn-sm"> Перейти </a>
                   <a href="https://github.com/nVinz/isolation-rating-spring" role="button" className="btn btn-secondary mr-1 ml-1 btn-sm"> Как работает? </a>
               </div>
             </div>
