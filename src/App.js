@@ -73,7 +73,7 @@ function App() {
                   </li>
                   
                   <li className="list-group-item bg-dark border-secondary">
-                    <img className="card-img" src="https://i.ibb.co/61tYpPJ/GEfsui6-Zjj-Q2.png" alt="Скриншот"></img>
+                    <img className="card-img" src="https://i.ibb.co/Jr6VbKL/0-Tj-G3-BUa-AF0.jpg" alt="Скриншот"></img>
                   </li>
 
                 </div>
