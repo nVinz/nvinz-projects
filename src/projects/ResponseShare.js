@@ -10,7 +10,7 @@ function ResponseShare() {
 
                 <li className="list-group-item bg-dark border-secondary">
                     <div className="card-body p-1">
-                        <div className="alert alert-info"> <b>В разработке</b> </div>
+                        <div className="alert alert-info mb-0"> <b>В разработке</b> </div>
                     </div>
                 </li>
 
