@@ -1,7 +1,7 @@
 # Проекты
 ### Рейтинг изоляции
 
-Находится на https://isolation-rating.netlify.app/\
+Находится на https://isolation-rating.netlify.app/ \
 Исходный код:
 - https://github.com/nVinz/isolation-rating-react
 - https://github.com/nVinz/isolation-rating-spring
@@ -10,7 +10,7 @@
 
 ### Эвакуатор
 
-Находится на https://nvinz.site/\
+Находится на https://nvinz.site/ \
 Исходный код:
 - https://github.com/nVinz/tow-truck-react
 - https://github.com/nVinz/tow-truck-spring
